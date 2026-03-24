@@ -7,5 +7,13 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-config-hshs
+      url: https://github.com/beekeeb/zmk-config-hshs
+      revision: main
+      path: modules/zmk-config-hshs
+    - name: zmk-cannonkeys-keyboards
+      url: https://github.com/cannonkeys/zmk-cannonkeys-keyboards
+      revision: main
+      path: modules/zmk-cannonkeys-keyboards
   self:
     path: config
