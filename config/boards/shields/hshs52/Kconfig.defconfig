@@ -17,6 +17,7 @@ config ZMK_SPLIT
     default y
 
 config CONFIG_ZMK_POINTING
+    bool
     default y
 
 endif
